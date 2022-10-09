@@ -1,0 +1,143 @@
+
+
+.shoe{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    background-color: white;
+    height: max-content;
+    justify-content: center;
+
+}
+
+.shoeLeft{
+     display:flex;
+    max-width: 750px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoeRight{
+    display:flex;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.shoeMain{
+   
+    margin-bottom: 10px;
+    
+}
+
+.shoeInfo{
+    display: flex;
+
+    flex-direction: column;
+    justify-content:space-between;
+    width: 300px;
+    height: 700px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 3px;
+}
+
+.shoeh1{
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.shoeh2{
+    font-size: 20px;
+}
+.shoeh3{
+    
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.shoeh4{
+    font-size: 15px;
+}
+
+.shoeh5{
+    font-size: 10px;
+}
+
+
+.addCart{
+    background: rgb(0, 0, 0);
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: black;
+    color: rgb(253, 253, 253);
+    padding: 15px;
+    cursor:pointer;
+}
+
+.dropdown{
+
+    width: 300px;
+    user-select: none;
+   
+    position: relative;
+
+}
+
+.dropdown .dropdownButton{
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+    font-weight: bold;
+    color: rgb(42, 41, 41);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    
+}
+
+.dropdown .dropdownContent{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    padding: 10px;
+    background: white;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0);
+    font-weight: 500;
+    color: rgb(42, 41, 41);
+    width: 95%;
+    height: 160px;
+   overflow: auto;
+}
+
+.dropdown .dropdownContent .dropdownItem{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dropdown .dropdownContent .dropdownItem:hover{
+    background: #fcfcfc;
+}
+
+.carret{
+    transition: all .2s;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ddd;  
+   
+}
+
+.warning{
+    color: red;
+}
+
+

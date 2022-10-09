@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+
+
+
+.collection {
+  font-family: 'Oswald', sans-serif;
+  background-color: #ffffff;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 1700px;
+  border-radius: 5px;
+}
+
+.collectionTitle{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    background-image: url("https://i.pinimg.com/736x/2a/17/e6/2a17e690a8d7a170a3d050434dc316b3.jpg");
+    padding: 75px;
+    font-size: 70px;
+    color: white;
+    
+}
+
+.collectionContainer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collectionRow{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+
+

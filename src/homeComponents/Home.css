@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+.home {
+    background-image: url("../images/fill.png");
+    
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.homeImage2{
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(ti bottom, rgba(0,0,0,1),
+    rgba(0,0,0,0));
+}
+
+.home2 {
+  
+  font-family: 'Oswald', sans-serif;
+  background-color: #ffffff;
+  justify-content: center;
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 1700px;
+
+  
+}
+
+.homeRow2{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:100%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.homeContainer{
+    display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+
+}
+
+.animate-character
+{
+    text-align:middle;
+  font-weight: 700;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #000000 0%,
+    #000005 29%,
+    #fbfafb 67%,
+    #010101 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+      font-family: 'Oswald', sans-serif;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.Button{
+  font-family: 'Oswald', sans-serif;
+    background: #814f42;
+    padding: 10px 16px 10px 16px;
+    border: solid black;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.LinkStyle{
+
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+
+.thirdComponent{
+  
+    background-image: url("../images/fill.png");
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+}
+
+.thirdComponentContainer{
+  position: absolute;
+  top:50%;
+  
+  margin-left: 50px;
+}
+
+.thirdComponenth1{
+  font-size: 45px;
+}
+
+.thirdComponenth2{
+  font-size: 30px;
+  
+}
+
+.right-arrow{
+  position: absolute;
+    top: 50%;
+    right: 0px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}

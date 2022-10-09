@@ -1,0 +1,41 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 550px;
+}
+
+
+
+.aboutUsHeader{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.aboutUsContainer{
+    margin: 20px 50px 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutUsLeft{
+    min-width: 400px;
+    max-width: 50%;
+}
+
+.aboutUsRight{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.image{
+    margin: 20px 40px 20px 40px;
+    max-width: 360px;
+    max-height: 300px;
+    
+}
+

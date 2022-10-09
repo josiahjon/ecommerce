@@ -1,0 +1,33 @@
+.checkout{
+    display: flex;
+    flex-wrap:wrap;
+    outline: 1px solid red;  
+    padding: 20px;
+    background-color: white;
+    min-height: 750px;
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+}
+
+.checkoutLeft{
+    display:flex;
+    background: white;
+    max-width: 400px;
+    
+}
+
+.checkoutRight{
+    display:flex;
+    background: white;
+    margin-left: 50px;
+}
+.checkoutTitle{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkoutAd{
+    width: 100%;
+    margin-bottom: 10px;
+}
